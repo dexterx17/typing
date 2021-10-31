@@ -8,45 +8,57 @@
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-    <header>
-        <div>
-            <div>
-                <strong>typing</strong>.com
+    <header class="header-bg">
+        <div class="container">
+
+            <div class="flex flex-col justify-center items-center sm:flex-row sm:justify-between">
+                <div class="px-4">
+                    <img class="w-40 h-16" src="./img/typing-logo.svg" alt="Typing">
+                </div>
+                <nav class="px-12 sm:px-32 md:px-2">
+                    <ul class="flex flex-row flex-wrap justify-center  text-white">
+                        <li class="px-1 text-sm md:text-md font-semibold">
+                            <a href="#">
+                                Lessons
+                            </a>
+                        </li>
+                        <li class="px-1 text-sm md:text-md">Tests</li>
+                        <li class="px-1 text-sm md:text-md">Games</li>
+                        <li class="px-1 text-sm md:text-md">Achievements</li>
+                        <li class="px-1 text-sm md:text-md">Themes</li>
+                        <li class="px-1 flex flex-row items-center text-sm md:text-md">
+                            <img class="h-3 w-4" src="img/flags/us.webp" />
+                            <span class="pl-1">
+                                EN
+                            </span>
+                        </li>
+                        <li class="px-1 text-sm md:text-md">Classic</li>
+                        <li class="px-1 text-sm md:text-md">
+                            <a href="#">
+                                Jaime
+                                <i></i>
+                            </a>
+                            <ul class="hidden">
+                                <li>Account Settings</li>
+                                <li>Log Out</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <nav>
-                <ul>
-                    <li>Lessons</li>
-                    <li>Tests</li>
-                    <li>Games</li>
-                    <li>Achievements</li>
-                    <li>Themes</li>
-                    <li><i></i>EN</li>
-                    <li>Classic</li>
-                    <li>
-                        <a href="#">
-                            Jaime
-                            <i></i>
-                        </a>
-                        <ul>
-                            <li>Account Settings</li>
-                            <li>Log Out</li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div>
-            <div>Upgrade to Remove ads <button>Go Premium!</button></div>
             <div>
-                Stats For: 
-                <select>
-                    <option value="all">View Stats From:</option>
-                    <option value="all">Today</option>
-                    <option value="all">Yesterday</option>
-                    <option value="all">Last 7 days</option>
-                    <option value="all">Last 30 days</option>
-                    <option value="all">All Time</option>
-                </select>
+                <div>Upgrade to Remove ads <button>Go Premium!</button></div>
+                <div>
+                    Stats For: 
+                    <select>
+                        <option value="all">View Stats From:</option>
+                        <option value="all">Today</option>
+                        <option value="all">Yesterday</option>
+                        <option value="all">Last 7 days</option>
+                        <option value="all">Last 30 days</option>
+                        <option value="all">All Time</option>
+                    </select>
+                </div>
             </div>
         </div>
     </header>
