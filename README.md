@@ -1,10 +1,10 @@
 # Typing CSS
 
-Practica de CSS copiando el excenlete estilo de [https://typing.com](typing.com)
+Practica de CSS copiando el excenlete estilo de [TYPING](https://typing.com)
 
 ## Herramientas
 
--   [https://tailwindcss.com/docs/installation](TailwindCSS) utility-first CSS framework
+-   [TailwindCSS](https://tailwindcss.com/docs/installation) utility-first CSS framework
 
 
 ## Instalacion
@@ -29,29 +29,30 @@ Practica de CSS copiando el excenlete estilo de [https://typing.com](typing.com)
 
 ### Imágenes
 
+#### Generales
+
 - Logo
-
 - Favico ![Favicon](https://github.com/dexterx17/typing/blob/master/img/favico.ico?raw=true)
+- Nubes
 
-- Iconos
+#### Iconos
 
 - - Accuracy ![Accuracy icon](https://github.com/dexterx17/typing/blob/master/img/accuracy.svg?raw=true) 
 - - Speed ![Speed icon](https://github.com/dexterx17/typing/blob/master/img/speed.svg?raw=true)
 - - Typing Time ![Typing Time icon](https://github.com/dexterx17/typing/blob/master/img/typing_time.svg?raw=true)
 
-- Niveles
+#### Niveles
 
 - - Level 1 ![Level 1](https://github.com/dexterx17/typing/blob/master/img/avatar-01_v1.webp?raw=true)
 - - Level 2 ![Level 2](https://github.com/dexterx17/typing/blob/master/img/avatar-02_v1.webp?raw=true)
 - - Level 3 ![Level 3](https://github.com/dexterx17/typing/blob/master/img/avatar-03_v1.webp?raw=true)
 - - Level 4 ![Level 4](https://github.com/dexterx17/typing/blob/master/img/avatar-04_v1.webp?raw=true)
 
-- Badges
+#### Badges
 
 - - Badge 1 ![Badge 1](https://github.com/dexterx17/typing/blob/master/img/badge1.svg?raw=true)
 
-
-- Medallas
+#### Medallas
 
 - - Principiante ![Principiante](https://github.com/dexterx17/typing/blob/master/img/beginner-award.webp?raw=true) 
 - - Intermedio ![Intermedio](https://github.com/dexterx17/typing/blob/master/img/intermediate-award.webp?raw=true)
