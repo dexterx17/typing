@@ -6,10 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Typing CSS</title>
     <link rel="stylesheet" href="css/app.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="js/init.js"></script>
 </head>
 <body class="bg-gray-200">
     <main class="3xl:container mx-auto bg-white ">
         <header class="header-bg mx-1"> 
+            <div class="clouds">
+                <img src="img/cloud1.webp" class="absolute" alt="Cloud 1">
+                <img src="img/cloud2.webp" class="absolute" alt="Cloud 2">
+                <img src="img/cloud3.webp" class="absolute" alt="Cloud 3">
+            </div>
             <div class="max-w-5xl mx-auto">
                 <div class="flex flex-col py-2 justify-center items-center sm:flex-row sm:justify-between">
                     <div class="px-5">
@@ -55,26 +63,28 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="flex flex-row justify-around py-1">
-                    <div class="text-xs font-extralight text-white">
-                        Upgrade to Remove ads 
-                        <button class="bg-amarillo text-cafe p-1 rounded-md font-bold text-black hover:bg-yellow-100">Go Premium!</button>
-                    </div>
-                    <div class="text-white">
-                        Stats For: 
-                        <select class="bg-blue-600 rounded-md">
-                            <option value="all">View Stats From:</option>
-                            <option value="all">Today</option>
-                            <option value="all">Yesterday</option>
-                            <option value="all">Last 7 days</option>
-                            <option value="all">Last 30 days</option>
-                            <option value="all">All Time</option>
-                        </select>
-                    </div>
-                </div>
             </div>
         </header>
-        <div class="max-w-5xl mx-auto">
+        
+        
+        <div class="max-w-5xl mx-auto hidden">
+            <div class="flex flex-row justify-around py-1">
+                <div class="text-xs font-extralight text-white">
+                    Upgrade to Remove ads 
+                    <button class="bg-amarillo text-cafe p-1 rounded-md font-bold text-black hover:bg-yellow-100">Go Premium!</button>
+                </div>
+                <div class="text-white">
+                    Stats For: 
+                    <select class="bg-blue-600 rounded-md">
+                        <option value="all">View Stats From:</option>
+                        <option value="all">Today</option>
+                        <option value="all">Yesterday</option>
+                        <option value="all">Last 7 days</option>
+                        <option value="all">Last 30 days</option>
+                        <option value="all">All Time</option>
+                    </select>
+                </div>
+            </div>
 
             <div class="flex justify-around">
                 <div >
