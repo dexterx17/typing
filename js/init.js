@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", function(event){
     
     let widthScreen = document.getElementById('clouds').clientWidth;
 
+    console.log('clientWidth',widthScreen);
+
     gsap.set(".clouds img", {scale: 0.5, opacity: 0.5});
 
     var tlClouds = gsap.timeline({ repeat:30, repeatDelay:0 });
@@ -12,4 +14,5 @@ document.addEventListener("DOMContentLoaded", function(event){
     
     tlClouds.fromTo('.clouds img:nth-child(3)',{x:0,y:0},{duration:170, x: widthScreen},"-70");
 
+    //alert(widthScreen);
 });

@@ -42,13 +42,13 @@
                                             EN
                                         </span>
                                     </li>
-                                    <li class="hidden  px-3 py-1 ml-2  sm:block text-xs bg-black bg-opacity-10 rounded-md font-museo">Classic</li>
+                                    <li class="hidden  px-3 py-1 m-2  sm:block text-xs bg-black bg-opacity-10 rounded-md font-museo">Classic</li>
                                 </ul>
                             </li>
                             <li class="sm:self-end px-2">
                                 <ul class="flex flex-row justify-center">
                                     <li class="px-1 lg:px-3 block sm:hidden text-sm font-museo">Classic</li>
-                                    <li class="px-1 lg:px-2 text-xs text-white font-museo font-light">
+                                    <li class="p-1 lg:p-2 border-l text-xs text-white font-museo font-light">
                                         <a href="#">
                                             Jaime
                                             <i></i>
@@ -66,60 +66,63 @@
             </div>
         </header>
         
-        
-        <div class="max-w-5xl mx-auto hidden">
-            <div class="flex flex-row justify-around py-1">
-                <div class="text-xs font-extralight text-white">
-                    Upgrade to Remove ads 
-                    <button class="bg-amarillo text-cafe p-1 rounded-md font-bold text-black hover:bg-yellow-100">Go Premium!</button>
-                </div>
-                <div class="text-white">
-                    Stats For: 
-                    <select class="bg-blue-600 rounded-md">
-                        <option value="all">View Stats From:</option>
-                        <option value="all">Today</option>
-                        <option value="all">Yesterday</option>
-                        <option value="all">Last 7 days</option>
-                        <option value="all">Last 30 days</option>
-                        <option value="all">All Time</option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="flex justify-around">
-                <div >
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col relative">
+                <div class="avatar absolute">
                     <img class="w-32 h-32" src="img/avatar-01_v1.webp" alt="">
                 </div>
                 <div>
-                    Typing Sapling (3/5)
-                </div>
-                <div class="flex">
-                    <div>
-                        <img src="img/speed.svg" alt="Avg Speed">
-                        <div>
-                            <span>Avg. Speed</span>
-                            <strong>31WPM</strong>
+                    <div class="flex flex-row justify-around py-1">
+                        <div class="hidden xl:block text-xs font-extralight text-white">
+                            Upgrade to Remove ads 
+                            <button class="bg-amarillo text-cafe p-1 rounded-md font-bold text-black hover:bg-yellow-100">Go Premium!</button>
                         </div>
-                    </div>
-                    <div>
-                        <img src="img/accuracy.svg" alt="Avg Accuracy">
-                        <div>
-                            <span>Avg. Acc.</span>
-                            <strong>97%</strong>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="img/speed.svg" alt="Typing Time">
-                        <div>
-                            <span>Typing Time</span>
-                            <strong>2:23</strong>
+                        <div class="hidden lg:block">
+                            Typing Sapling (3/5)
                         </div>
                     </div>
                 </div>
-                <div >
-                    <img class="w-32 h-32" src="img/avatar-01_v1.webp" alt="">
+                <div class="flex justify-around relative">
+                    <div class="text-white absolute md:block top-0 left-0">
+                        Stats For: 
+                        <select class="bg-blue-600 rounded-md">
+                            <option value="all">View Stats From:</option>
+                            <option value="all">Today</option>
+                            <option value="all">Yesterday</option>
+                            <option value="all">Last 7 days</option>
+                            <option value="all">Last 30 days</option>
+                            <option value="all">All Time</option>
+                        </select>
+                    </div>
+                    <div class="flex">
+                        <div>
+                            <img src="img/speed.svg" alt="Avg Speed">
+                            <div>
+                                <span>Avg. Speed</span>
+                                <strong>31WPM</strong>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="img/accuracy.svg" alt="Avg Accuracy">
+                            <div>
+                                <span>Avg. Acc.</span>
+                                <strong>97%</strong>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="img/speed.svg" alt="Typing Time">
+                            <div>
+                                <span>Typing Time</span>
+                                <strong>2:23</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div >
+                        <img class="w-32 h-32" src="img/avatar-01_v1.webp" alt="">
+                    </div>
                 </div>
             </div>
+
         </div>
         <div class="h-6 bg-azul"></div>
     </main>
