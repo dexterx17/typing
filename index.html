@@ -14,9 +14,9 @@
     <main class="3xl:container mx-auto bg-white ">
         <header class="header-bg mx-1"> 
             <div id="clouds" class="clouds">
-                <img src="img/cloud1.webp" class="absolute" alt="Cloud 1">
-                <img src="img/cloud2.webp" class="absolute" alt="Cloud 2">
-                <img src="img/cloud3.webp" class="absolute" alt="Cloud 3">
+                <img src="img/cloud1.webp" class="cloud absolute" alt="Cloud 1">
+                <img src="img/cloud2.webp" class="cloud absolute" alt="Cloud 2">
+                <img src="img/cloud3.webp" class="cloud absolute" alt="Cloud 3">
             </div>
             <div class="max-w-5xl mx-auto">
                 <div class="flex flex-col py-2 justify-center items-center sm:flex-row sm:justify-between">
@@ -67,59 +67,88 @@
         </header>
         
         <div class="max-w-5xl mx-auto">
-            <div class="flex flex-col relative">
-                <div class="avatar absolute">
-                    <img class="w-32 h-32" src="img/avatar-01_v1.webp" alt="">
-                </div>
-                <div>
-                    <div class="flex flex-row justify-around py-1">
-                        <div class="hidden xl:block text-xs font-extralight text-white">
-                            Upgrade to Remove ads 
-                            <button class="bg-amarillo text-cafe p-1 rounded-md font-bold text-black hover:bg-yellow-100">Go Premium!</button>
-                        </div>
-                        <div class="hidden lg:block">
-                            Typing Sapling (3/5)
-                        </div>
+            <div class="flex flex-col ">
+                <div class="relative">
+                    <div class="avatar absolute">
+                        <img class="w-28 h-28" src="img/avatar-01_v1.webp" alt="">
                     </div>
                 </div>
-                <div class="flex justify-around relative">
-                    <div class="text-white absolute md:block top-0 left-0">
-                        Stats For: 
-                        <select class="bg-blue-600 rounded-md">
-                            <option value="all">View Stats From:</option>
-                            <option value="all">Today</option>
-                            <option value="all">Yesterday</option>
-                            <option value="all">Last 7 days</option>
-                            <option value="all">Last 30 days</option>
-                            <option value="all">All Time</option>
-                        </select>
-                    </div>
-                    <div class="flex">
-                        <div>
-                            <img src="img/speed.svg" alt="Avg Speed">
-                            <div>
-                                <span>Avg. Speed</span>
-                                <strong>31WPM</strong>
+                <div class="flex justify-between">
+                    <div class="flex-1 hidden lg:block">
+                        <div class="flex flex-row relative justify-around py-1">
+                            <div class="hidden go-premium absolute xl:block text-xs font-extralight text-white">
+                                Upgrade to Remove ads 
+                                <button class="bg-amarillo text-cafe p-1 rounded-md font-bold text-black hover:bg-yellow-100">Go Premium!</button>
                             </div>
-                        </div>
-                        <div>
-                            <img src="img/accuracy.svg" alt="Avg Accuracy">
-                            <div>
-                                <span>Avg. Acc.</span>
-                                <strong>97%</strong>
-                            </div>
-                        </div>
-                        <div>
-                            <img src="img/speed.svg" alt="Typing Time">
-                            <div>
-                                <span>Typing Time</span>
-                                <strong>2:23</strong>
+                            <div class="hidden lg:block w-full py-2 px-4 ml-28">
+                                <div class=" flex justify-between bg-azul py-1 px-2 text-white">
+                                    <span>
+                                        Typing Sapling (3/5)
+                                    </span>
+                                    <span class="text-sm">
+                                        100 xp to go
+                                    </span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div >
-                        <img class="w-32 h-32" src="img/avatar-01_v1.webp" alt="">
+                    <div class="flex flex-1 justify-between relative">
+                        <div class="text-white see-stats absolute md:block">
+                            Stats For: 
+                            <select class="bg-blue-600 rounded-md">
+                                <option value="all">View Stats From:</option>
+                                <option value="all">Today</option>
+                                <option value="all">Yesterday</option>
+                                <option value="all">Last 7 days</option>
+                                <option value="all">Last 30 days</option>
+                                <option value="all">All Time</option>
+                            </select>
+                        </div>
+                        <div class="flex justify-around flex-1 mr-24">
+                            <div class="flex flex-1">
+                                <div class="hidden sm:block py-2">
+                                    <img class="w-10 h-10 m-auto" src="img/speed.svg" alt="Avg Speed">
+                                </div>
+                                <div class="p-2">
+                                    <div class="flex ">
+                                        <img class="block sm:hidden h-6 w-6" src="img/speed.svg" alt="Avg Speed">
+                                        <span class="text-gray-600 text-sm">Avg. Speed</span>
+                                    </div>
+                                    <strong class="text-lg text-gray-800">31<small class="text-sm">WPM</small></strong>
+                                </div>
+                            </div>
+                            <div class="flex flex-1">
+                                <div class="hidden py-2 sm:block">
+                                    <img class="h-10 w-10"  src="img/accuracy.svg" alt="Avg Accuracy">
+                                </div>
+                                <div class="p-2">
+                                    <div class="flex">
+                                        <img class="block sm:hidden h-6 w-6" src="img/accuracy.svg" alt="Avg Accuracy">
+                                        <span class="pl-1 text-gray-600 text-sm">Avg. Acc.</span>
+                                    </div>
+                                    <strong class="text-lg">97<small class="text-sm">%</small></strong>
+                                </div>
+                            </div>
+                            <div class="flex flex-1">
+                                <div class="hidden py-2 sm:block">
+                                    <img class="h-10 w-10"  src="img/typing_time.svg" alt="Typing Time">
+                                </div>
+                                <div class="p-2">
+                                    <div class="flex">
+                                        <img class="block sm:hidden h-6 w-6" src="img/typing_time.svg" alt="Typing Time">
+                                        <span class="pl-1 text-gray-600 text-sm">Typing Time</span>
+                                    </div>
+                                    <strong class="text-lg">2:23</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <div class="absolute h-28 w-28 timmer">
+                                <img class="w-28 h-28" src="img/avatar-01_v1.webp" alt="">
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
 

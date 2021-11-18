@@ -78,6 +78,22 @@
     top: -140px;
 }
 
+.go-premium{
+    top: -30px;
+    left: 130px;
+}
+
+.see-stats{
+    top: -30px;
+    left: 20px;
+}
+
+.timmer{
+    right: 15px;
+    top: -30px;
+}
+
+
 @media screen and (min-width:650px) {
     .header-bg{
         height:170px
@@ -95,7 +111,12 @@
 
     .avatar{
         left: -10px;
-        top: -40px;
+        top: -60px;
+    }
+
+    .see-stats{
+        top: -30px;
+        right: 100px;
     }
 }
 
