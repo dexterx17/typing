@@ -18,7 +18,11 @@ module.exports = {
       },
     },
     fontFamily:{
-      'museo': ['MuseoRounded']
+      'museo100': ['museo-100'],
+      'museo300': ['museo-300'],
+      'museo500': ['museo-500'],
+      'museo700': ['museo-700'],
+      'museo900': ['museo-900']
     }
   },
   variants: {
